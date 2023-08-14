@@ -1,5 +1,5 @@
 import satData from "./satData";
-const Buttons = () => {
+const Buttons = (props) => {
   return (
     <div>
      {props.displaySats.map((sat, id) => {
